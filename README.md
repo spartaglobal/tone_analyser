@@ -147,7 +147,9 @@ At present there are three simple services available:
 
 You can use the `get_text_tone_from_json_file(File_Location)` service to post larger amounts of text which can be broken down into separate sentences by using the `\n` character line feed to break a sentence up.
 
-The Tone Analyzer will respond with the overall tone of the document as well as each sentence tone. To see the simply uncomment the `print(get_text_tone_from_json_file('text_examples/positive_text.json'))` in the `main.py` file and run the file for an example.
+The Tone Analyzer will respond with the overall tone of the document as well as each sentence tone. To see an example simply uncomment the `print(get_text_tone_from_json_file('text_examples/positive_text.json'))` in the `main.py` file and run the file for an example.
+
+Example json file formats can be found in the `text_examples` folder. Add your own and experiment.
 
 ## Next steps for the project
 
